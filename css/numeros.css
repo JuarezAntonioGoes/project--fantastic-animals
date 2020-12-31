@@ -1,0 +1,33 @@
+[data-numero] {
+  color: tomato;
+  font-size: 2rem;
+  font-family: "Times New Roman";
+  font-weight: bold;
+}
+
+.numeros-grid {
+  grid-column: 2/4;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+}
+
+.numero-animal h3 {
+  font-size: 3rem;
+  font-weight: lighter;
+  margin-bottom: .5rem;
+}
+
+@media (max-width: 700px) {
+  .numeros-grid {
+    grid-column: 1/2;
+  }
+
+  .numero-animal h3 {
+    font-size: 2rem;
+  }
+  
+  .titulo{
+    font-size: 4rem;
+  }
+}
